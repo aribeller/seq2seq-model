@@ -1,0 +1,12 @@
+This is a simple sequence to sequence model for machine translation. The data sets are somewhat small and so, it isn't
+highly performant. However the experience was still useful in
+understanding the architecture of sequence to sequence models.
+
+To account for it's limited training data, I only translate
+sentences of length 13 or less.
+
+Run the program by calling the bash script followed by the arguments in the following order:
+french train
+english train
+french test
+english test
